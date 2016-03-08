@@ -1,0 +1,74 @@
+login FEMA
+add 000000007 fred flintstone M 8_bedrock
+add 000000008 bambam flintstone F 8_bedrock
+add 100000009 wilma flinstone F 8_bedrock
+add 101010101 barny rubble M 7_bedrock
+add 666666666 UNK UNK F gillette_stadium
+list
+quit
+login FEMA
+add 543219876 John Smith M bourbon_street
+add 444444441 UNK UNK F Bourbon_streeT
+add 444444442 UNK UNK M worcester
+add 444444443 UNK UNK F worcester
+add 444444444 UNK UNK M Bourbon_streeT
+locate bourbOn_street
+remove 000000008
+list f G
+add 555555552 john sMith M blues_alley_gutter
+find JOHN SMITH
+add 000000008 Tom B M gillette_stadiuM
+add 100000009 The Gronk M gillette
+list B
+add 100000009 missing link F segfault
+locate gillette_stadium
+update 444444443 Tom Br F worcester
+add 888888881 UNK UNK F 8_bedrock
+quit
+login Query
+locate Worcester
+quit
+login Query
+update 444444443 T B M w
+find UNK UNK
+quit
+login FEMA
+add 999999990 the-funk UNK F grooving-boulevard
+add 987654321 Tom Brady M Worcester
+update 100000009 The Gronk M worcester
+locate WORCESTER
+locate 8_bedROCK
+list b G
+list u
+quit
+login FEMA
+add 777777777 four Aces F winning_poker_hand
+add 444333444 straight flush F winning_poker_hand
+find tom brady
+add 123456789 UNK UNK F worCester
+locate worcester
+list a C
+remove 333222111
+quit
+login Query
+add 123123124 Rob Gronk M endzone_spiking_the_ball
+add 800000008 Tom B M gillette
+add 900000009 tom B F two_minute_drill
+find TOM B
+find UNK UNK
+list
+add 666655550 rob gronk M bourbon streEt
+update 444444444 Roger rabbitt M Bourbon_streeT
+locate BOURBON street
+locate Bourbon
+list
+quit
+login FEMA
+add 510510510 tom b M very_very_very-very_very_long_pass
+add 999999994 pairof aces F losing_Hand
+list a B
+quit
+login Query
+find tom b
+list
+quit EOF

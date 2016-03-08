@@ -1,0 +1,390 @@
+Command issued: 
+login FEMA
+Response: 
+Hello FEMA!
+Command issued: 
+add 000000007 fred flintstone M 8_bedrock
+Response: 
+add 000000007 fred flintstone M 8_bedrock
+Command issued: 
+add 000000008 bambam flintstone F 8_bedrock
+Response: 
+add 000000008 bambam flintstone F 8_bedrock
+Command issued: 
+add 100000009 wilma flinstone F 8_bedrock
+Response: 
+add 100000009 wilma flinstone F 8_bedrock
+Command issued: 
+add 101010101 barny rubble M 7_bedrock
+Response: 
+add 101010101 barny rubble M 7_bedrock
+Command issued: 
+add 666666666 UNK UNK F gillette_stadium
+Response: 
+add 666666666 UNK UNK F gillette_stadium
+Command issued: 
+list
+Response: 
+100000009 WILMA FLINSTONE F 8_BEDROCK
+000000007 FRED FLINTSTONE M 8_BEDROCK
+000000008 BAMBAM FLINTSTONE F 8_BEDROCK
+101010101 BARNY RUBBLE M 7_BEDROCK
+666666666 UNK UNK F GILLETTE_STADIUM
+Command issued: 
+quit
+Response: 
+The TCP connection for client FEMA will be closed.
+The total number of commends FEMA sent is 8
+Command issued: 
+login FEMA
+Response: 
+Hello FEMA!
+Command issued: 
+add 543219876 John Smith M bourbon_street
+Response: 
+add 543219876 John Smith M bourbon_street
+Command issued: 
+add 444444441 UNK UNK F Bourbon_streeT
+Response: 
+add 444444441 UNK UNK F Bourbon_streeT
+Command issued: 
+add 444444442 UNK UNK M worcester
+Response: 
+add 444444442 UNK UNK M worcester
+Command issued: 
+add 444444443 UNK UNK F worcester
+Response: 
+add 444444443 UNK UNK F worcester
+Command issued: 
+add 444444444 UNK UNK M Bourbon_streeT
+Response: 
+add 444444444 UNK UNK M Bourbon_streeT
+Command issued: 
+locate bourbOn_street
+Response: 
+543219876 JOHN SMITH M BOURBON_STREET
+444444441 UNK UNK F BOURBON_STREET
+444444444 UNK UNK M BOURBON_STREET
+Command issued: 
+remove 000000008
+Response: 
+BAMBAM FLINTSTONE is removed
+Command issued: 
+list f G
+Response: 
+100000009 WILMA FLINSTONE F 8_BEDROCK
+000000007 FRED FLINTSTONE M 8_BEDROCK
+Command issued: 
+add 555555552 john sMith M blues_alley_gutter
+Response: 
+add 555555552 john sMith M blues_alley_gutter
+Command issued: 
+find JOHN SMITH
+Response: 
+543219876 JOHN SMITH M BOURBON_STREET
+555555552 JOHN SMITH M BLUES_ALLEY_GUTTER
+Command issued: 
+add 000000008 Tom B M gillette_stadiuM
+Response: 
+add 000000008 Tom B M gillette_stadiuM
+Command issued: 
+add 100000009 The Gronk M gillette
+Response: 
+Contains duplicate id number in database
+Command issued: 
+list B
+Response: 
+000000008 TOM B M GILLETTE_STADIUM
+Command issued: 
+add 100000009 missing link F segfault
+Response: 
+Contains duplicate id number in database
+Command issued: 
+locate gillette_stadium
+Response: 
+000000008 TOM B M GILLETTE_STADIUM
+666666666 UNK UNK F GILLETTE_STADIUM
+Command issued: 
+update 444444443 Tom Br F worcester
+Command issued: 
+add 888888881 UNK UNK F 8_bedrock
+Response: 
+add 888888881 UNK UNK F 8_bedrock
+Command issued: 
+quit
+Response: 
+The TCP connection for client FEMA will be closed.
+The total number of commends FEMA sent is 19
+Command issued: 
+login Query
+Response: 
+Hello Query!
+Command issued: 
+locate Worcester
+Response: 
+444444443 TOM BR F WORCESTER
+444444442 UNK UNK M WORCESTER
+Command issued: 
+quit
+Response: 
+The TCP connection for client Query will be closed.
+The total number of commends Query sent is 3
+Command issued: 
+login Query
+Response: 
+Hello Query!
+Command issued: 
+update 444444443 T B M w
+Response: 
+User can't use update
+Command issued: 
+find UNK UNK
+Response: 
+666666666 UNK UNK F GILLETTE_STADIUM
+444444441 UNK UNK F BOURBON_STREET
+444444442 UNK UNK M WORCESTER
+444444444 UNK UNK M BOURBON_STREET
+888888881 UNK UNK F 8_BEDROCK
+Command issued: 
+quit
+Response: 
+The TCP connection for client Query will be closed.
+The total number of commends Query sent is 3
+Command issued: 
+login FEMA
+Response: 
+Hello FEMA!
+Command issued: 
+add 999999990 the-funk UNK F grooving-boulevard
+Response: 
+add 999999990 the-funk UNK F grooving-boulevard
+Command issued: 
+add 987654321 Tom Brady M Worcester
+Response: 
+add 987654321 Tom Brady M Worcester
+Command issued: 
+update 100000009 The Gronk M worcester
+Command issued: 
+locate WORCESTER
+Response: 
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+100000009 THE GRONK M WORCESTER
+444444442 UNK UNK M WORCESTER
+Command issued: 
+locate 8_bedROCK
+Response: 
+000000007 FRED FLINTSTONE M 8_BEDROCK
+888888881 UNK UNK F 8_BEDROCK
+Command issued: 
+list b G
+Response: 
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+000000007 FRED FLINTSTONE M 8_BEDROCK
+100000009 THE GRONK M WORCESTER
+Command issued: 
+list u
+Response: 
+999999990 THE-FUNK UNK F GROOVING-BOULEVARD
+Command issued: 
+quit
+Response: 
+The TCP connection for client FEMA will be closed.
+The total number of commends FEMA sent is 9
+Command issued: 
+login FEMA
+Response: 
+Hello FEMA!
+Command issued: 
+add 777777777 four Aces F winning_poker_hand
+Response: 
+add 777777777 four Aces F winning_poker_hand
+Command issued: 
+add 444333444 straight flush F winning_poker_hand
+Response: 
+add 444333444 straight flush F winning_poker_hand
+Command issued: 
+find tom brady
+Response: 
+987654321 TOM BRADY M WORCESTER
+Command issued: 
+add 123456789 UNK UNK F worCester
+Response: 
+add 123456789 UNK UNK F worCester
+Command issued: 
+locate worcester
+Response: 
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+100000009 THE GRONK M WORCESTER
+444444442 UNK UNK M WORCESTER
+123456789 UNK UNK F WORCESTER
+Command issued: 
+list a C
+Response: 
+777777777 FOUR ACES F WINNING_POKER_HAND
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+Command issued: 
+remove 333222111
+Response: 
+remove error: given ID number not found!
+Command issued: 
+quit
+Response: 
+The TCP connection for client FEMA will be closed.
+The total number of commends FEMA sent is 9
+Command issued: 
+login Query
+Response: 
+Hello Query!
+Command issued: 
+add 123123124 Rob Gronk M endzone_spiking_the_ball
+Response: 
+User can't use add
+Command issued: 
+add 800000008 Tom B M gillette
+Response: 
+User can't use add
+Command issued: 
+add 900000009 tom B F two_minute_drill
+Response: 
+User can't use add
+Command issued: 
+find TOM B
+Response: 
+000000008 TOM B M GILLETTE_STADIUM
+Command issued: 
+find UNK UNK
+Response: 
+666666666 UNK UNK F GILLETTE_STADIUM
+444444441 UNK UNK F BOURBON_STREET
+444444442 UNK UNK M WORCESTER
+444444444 UNK UNK M BOURBON_STREET
+888888881 UNK UNK F 8_BEDROCK
+123456789 UNK UNK F WORCESTER
+Command issued: 
+list
+Response: 
+777777777 FOUR ACES F WINNING_POKER_HAND
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+000000007 FRED FLINTSTONE M 8_BEDROCK
+444333444 STRAIGHT FLUSH F WINNING_POKER_HAND
+100000009 THE GRONK M WORCESTER
+101010101 BARNY RUBBLE M 7_BEDROCK
+543219876 JOHN SMITH M BOURBON_STREET
+555555552 JOHN SMITH M BLUES_ALLEY_GUTTER
+999999990 THE-FUNK UNK F GROOVING-BOULEVARD
+666666666 UNK UNK F GILLETTE_STADIUM
+444444441 UNK UNK F BOURBON_STREET
+444444442 UNK UNK M WORCESTER
+444444444 UNK UNK M BOURBON_STREET
+888888881 UNK UNK F 8_BEDROCK
+123456789 UNK UNK F WORCESTER
+Command issued: 
+add 666655550 rob gronk M bourbon streEt
+Response: 
+User can't use add
+Command issued: 
+update 444444444 Roger rabbitt M Bourbon_streeT
+Response: 
+User can't use update
+Command issued: 
+locate BOURBON street
+Response: 
+Invalid command format! locate <location>
+Command issued: 
+locate Bourbon
+Response: 
+No match location found!
+Command issued: 
+list
+Response: 
+777777777 FOUR ACES F WINNING_POKER_HAND
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+000000007 FRED FLINTSTONE M 8_BEDROCK
+444333444 STRAIGHT FLUSH F WINNING_POKER_HAND
+100000009 THE GRONK M WORCESTER
+101010101 BARNY RUBBLE M 7_BEDROCK
+543219876 JOHN SMITH M BOURBON_STREET
+555555552 JOHN SMITH M BLUES_ALLEY_GUTTER
+999999990 THE-FUNK UNK F GROOVING-BOULEVARD
+666666666 UNK UNK F GILLETTE_STADIUM
+444444441 UNK UNK F BOURBON_STREET
+444444442 UNK UNK M WORCESTER
+444444444 UNK UNK M BOURBON_STREET
+888888881 UNK UNK F 8_BEDROCK
+123456789 UNK UNK F WORCESTER
+Command issued: 
+quit
+Response: 
+The TCP connection for client Query will be closed.
+The total number of commends Query sent is 7
+Command issued: 
+login FEMA
+Response: 
+Hello FEMA!
+Command issued: 
+add 510510510 tom b M very_very_very-very_very_long_pass
+Response: 
+Invalid input argument length!
+Command issued: 
+add 999999994 pairof aces F losing_Hand
+Response: 
+add 999999994 pairof aces F losing_Hand
+Command issued: 
+list a B
+Response: 
+777777777 FOUR ACES F WINNING_POKER_HAND
+999999994 PAIROF ACES F LOSING_HAND
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+Command issued: 
+quit
+Response: 
+The TCP connection for client FEMA will be closed.
+The total number of commends FEMA sent is 4
+Command issued: 
+login Query
+Response: 
+Hello Query!
+Command issued: 
+find tom b
+Response: 
+000000008 TOM B M GILLETTE_STADIUM
+Command issued: 
+list
+Response: 
+777777777 FOUR ACES F WINNING_POKER_HAND
+999999994 PAIROF ACES F LOSING_HAND
+000000008 TOM B M GILLETTE_STADIUM
+444444443 TOM BR F WORCESTER
+987654321 TOM BRADY M WORCESTER
+000000007 FRED FLINTSTONE M 8_BEDROCK
+444333444 STRAIGHT FLUSH F WINNING_POKER_HAND
+100000009 THE GRONK M WORCESTER
+101010101 BARNY RUBBLE M 7_BEDROCK
+543219876 JOHN SMITH M BOURBON_STREET
+555555552 JOHN SMITH M BLUES_ALLEY_GUTTER
+999999990 THE-FUNK UNK F GROOVING-BOULEVARD
+666666666 UNK UNK F GILLETTE_STADIUM
+444444441 UNK UNK F BOURBON_STREET
+444444442 UNK UNK M WORCESTER
+444444444 UNK UNK M BOURBON_STREET
+888888881 UNK UNK F 8_BEDROCK
+123456789 UNK UNK F WORCESTER
+Command issued: 
+quit EOF
+Response: 
+The TCP connection for client Query will be closed.
+The total number of commends Query sent is 4
+Total number of packets server sent is 176
+Client script count is 9
