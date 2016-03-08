@@ -1,0 +1,17 @@
+//Author: Mengwen Li (mli2)
+
+For echoClient and echoServer program:
+The echoClient and echoServer programs are in "echoClient_Server" folder.
+These two programs are modified from the D&C code. 
+To compile the programs, run command "make" in this folder.
+To run the echo client, use commend "./mli2_EchoClient <Server ip address> <String to send>".
+To run the echo server, use commend "./mli2_EchoServer".
+
+For enhancedEchoClient and enhancedEchoServer program:
+The enhancedEchoClient and enhancedEchoServer programs are in "enhancedEchoClient_Server" folder.
+These two programs are also modified from the D&C code.
+To compile the programs, run command "make" in this folder.
+To run the enhanced echo server, use commend "./mli2_EnhancedEchoServer".
+To run the enhanced echo client, use commend "./mli2_EnhancedEchoClient <Server host name> <String to send> ... <String to send>".
+
+To clean up, use "make clean" command.

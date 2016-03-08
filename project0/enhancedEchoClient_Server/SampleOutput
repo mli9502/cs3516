@@ -1,0 +1,14 @@
+Server:
+-base-4.1$ ./mli2_EnhancedEchoServer
+Enhanced Echo Server sent 5 strings to the Enhanced Echo Client
+-base-4.1$
+
+Client:
+-base-3.2$ ./mli2_EnhancedEchoClient CCCWORK1 "first input" "second input" "third input" "fourth input" "fifth input"
+EnhancedClient received: first input
+EnhancedClient received: second input
+EnhancedClient received: third input
+EnhancedClient received: fourth input
+EnhancedClient received: fifth input
+EnhancedClient: done
+-base-3.2$

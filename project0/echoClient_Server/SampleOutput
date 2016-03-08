@@ -1,0 +1,8 @@
+Server:
+-base-4.1$ ./mli2_EchoServer
+-base-4.1$
+
+Client:
+-base-3.2$ ./mli2_EchoClient 130.215.36.85 "echo this string"
+Client received: echo this string
+-base-3.2$
