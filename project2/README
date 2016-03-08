@@ -1,0 +1,15 @@
+Author: Mengwen Li (mli2)
+
+The source code is in "webclient.cpp" file. To compile, use command "make" and to clean, use command "make clean".
+
+To run the program and save the result to "web.txt" file, use command "./webclient www.cnn.com/".
+To save the result to "cnn.save", use command "./webclient www.cnn.com -f cnn.save".
+
+The program support the following input flags: -f, -nf, -ping, -pkt, -info.
+Any unsupported command line input such as incorrect flag, -f with -nf, -pkt with -f or -nf, duplicate flags, no filename after -f and no input argument will be detected and an error message will be printed out.
+
+All the flags function properly and will print out the corresponding information.
+
+The test result for www.cnn.com are saved in both "web.txt" file and "cnn.save" file.
+
+The report and the answer for questions are in "prog2_report.pdf" file.
