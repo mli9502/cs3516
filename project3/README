@@ -1,0 +1,40 @@
+Author: Mengwen Li (mli2)
+	Yo Karita (ykarita)
+	(Team 1)
+
+The program works fine, all the photos can be correctly received at the server side. The log output also looks resonable.
+
+To compile the program, use command "make", to clean up, use command "make clean"
+If the server runs on CCCWORK1:
+To run the server, use command "./server"
+To run the first client, use command "./client CCCWORK1 1 5"
+To run the second client, use command "./client CCCWORK1 2 5"
+
+The timeout value we set was 250000usec, as a result, it takes about 102 mins to finish transfering photos for client 1 and client 2.
+
+The log outputs for client and server are contained in the "logs.tar.gz" file.
+The "client_1.log" and "client_2.log" contains the log output for the first client and the second client.
+The "server_1.log" and "server_2.log" contains the log output from the concurrent server for the first client and the second client. 
+
+Work split up:
+The Frame class, the Packet class and the client code was written by Mengwen Li
+The DataLinkLayer class, the Ack class and the server code was written by Yo Karita.
+
+Several design decisions:
+1. Since the client didn't send the client id number to the server, we maintain a counter to distinguish the clients. As a result, the first client connected will be assign id 1, the second will be assign id 2 and so on.
+2. To make the server know when a photo has ended, we add a 1 byte filed in Frame class called "endofPhoto". The server checks this field to decide when a photo has finished.
+3. When doing error simulation, in the server side, we didn't count the retransmitted ack and data frame containing ack towards the counter that determines which ack should be wrong. In the client side, we also didn't count the retransmitted frame towards the counter that determins which frame should be transmitted as wrong frame.
+4. The counting of received photos starts from 0.
+
+To implement the data frame, we create a class called Frame. A data frame object contains 2 bytes of sequence number, 1 byte of frame type ('f'),
+1 byte of end of packet indicator, a char vector storing the data (no more than 130 bytes), 1 byte of end of photo indicator and 2 bytes of error detection code.
+We add the end of photo indicator so that the server knows the photo ends when it receives the frame.
+
+To implement the ack frame, we create a class called Ack. An ack object contains 2 bytes of sequence number, 1 byte of frame type ('a') and 2 bytes of error detection code. 
+
+To simulate a packet, we create a class called Packet. A packet object contains a char vector storing the pay load and an end of photo indicator.
+
+To simulate the client side Datalink layer, we create a class called DataLinkLayer. A datalink layer objects contains a packet and a vector of Frames that it get by splitting the packet it gets from the network layer.
+
+The simulation of the network layer, datalink layer and physical layer functionalities are written as seperate functions in client.cpp and server.cpp.
+
